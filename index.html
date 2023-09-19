@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeIR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- project -->
-    <section class="wrapper">
-        
+    <section class="wrapper d-flex flex-row flex-wrap">
+        <!-- make sidebar -->
+        <div class="sidebar col-md-2 offset-1 d-flex flex-column ">
+            <ul >
+                <li class="col-10 offset-1"><a href="index.html" id="home">
+                    <img src="img/codeir-low-resolution-logo-color-on-transparent-background.png" alt="logo" width="120">
+                        </a></li>
+                <li id="reff"><a href="#" id="projectBtn">our project</a></li>
+                <li class="col-10 offset-1"><a href="#aboutUS">about us</a></li>
+                <li class="col-10 offset-1"><a href="#contactUS">contact us</a></li>
+            </ul>
+            <div>
+                <div class="social">
+                    <input type="checkbox" name="" id="" />
+                    <div class="links">
+                        <a href="#" style="--i: 1"><i class="bi bi-youtube"></i></a>
+                        <a href="#" style="--i: 2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" style="--i: 3"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end make side bar -->
+        <!-- make content -->
+        <div class="content col-md-7 offset-1 ">
+            <div id="homePage" >
+                <div>
+                    <h1>code IR</h1>
+                </div>
+            </div>
+            <div id="ourProject" class="d-none">  test</div>
+        </div>
+
+
     </section>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
