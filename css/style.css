@@ -17,7 +17,8 @@ div.loading>h1{
     text-transform: uppercase;
     color: #93B1A6;
     text-align: center;
-    animation: hinge forwards infinite linear 3000ms;
+    font-family: fantasy;
+    animation: zoomInDown forwards infinite linear 3000ms;
 
 }
 .wrapper{
@@ -213,7 +214,7 @@ div.content{
     padding: 24px 16px;
 }
 #homePage>div>h1{
-    font-family: cursive;
+    font-family: fantasy;
     text-transform: capitalize;
     color: #93B1A6;
     position: relative;
@@ -268,6 +269,6 @@ div.content{
     height: 100%;
 }
 #ourProject>h1{
-    font-family: cursive;
+    font-family: fantasy;
     font-size: 64px;
 }
