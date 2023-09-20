@@ -1,6 +1,7 @@
 setTimeout(function (){
     document.querySelector('.loading').style.display="none"
-    
+    $('.wrapper').addClass('d-flex')
+    $('.wrapper').removeClass('d-none')
 },3000)
 $('#home').click(()=>{
     $('#ourProject').addClass('d-none')
