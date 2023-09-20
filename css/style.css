@@ -45,12 +45,12 @@ div.sidebar>ul>li>a{
     z-index: 0;
 
 }
-div.sidebar>ul>li:nth-of-type(2):hover,div.sidebar>ul>li:nth-of-type(3):hover,div.sidebar>ul>li:nth-of-type(4):hover{
+div.sidebar>ul>li:nth-of-type(2):hover,div.sidebar>ul>li:nth-of-type(3):hover,div.sidebar>ul>li:nth-of-type(4):hover,sidebar>ul>li:nth-of-type(5):hover{
     box-shadow: 1px 1px 5px #5C8374, -1px -1px 5px #5C8374;
 
 }
 
-  div.sidebar>ul>li:nth-of-type(2)>a::before,div.sidebar>ul>li:nth-of-type(3)>a::before,div.sidebar>ul>li:nth-of-type(4)>a::before {
+  div.sidebar>ul>li:nth-of-type(2)>a::before,div.sidebar>ul>li:nth-of-type(3)>a::before,div.sidebar>ul>li:nth-of-type(4)>a::before ,div.sidebar>ul>li:nth-of-type(5)>a::before {
     width: 100%;
     height:100%;
     background:#183D3D;
@@ -111,7 +111,6 @@ div.sidebar>div>div.social>input::before {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: #5C8374; */
   color: #5C8374;
   border-radius: 50%;
   display: flex;
@@ -209,4 +208,40 @@ div.content{
     top: 15%;
     background-color: #5c8374c2;
     font-size: 16px;
+}
+#homePage>div>div.icons{
+    top: 30%;
+    left: 20px;
+
+}
+#homePage>div>div.icons>div{
+ background-size:cover;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 4px solid  #5C8374;
+}
+#homePage>div>div.icons>div:nth-of-type(1){
+    background: url(../img/js\ copy.jpg) bottom right no-repeat;
+    
+   
+}
+#homePage>div>div.icons>div:nth-of-type(2){
+    background: url(../img/bootstrap.jpg) center center no-repeat;
+    
+
+}
+#homePage>div>div.icons>div:nth-of-type(3){
+    background: url(../img/react.jpg) center center no-repeat;
+
+}
+#homePage>div>div.icons>div:nth-of-type(4){
+    background: url(../img/jquery.jpg) center center no-repeat;
+}
+#homePage>div>div.icons>div:nth-of-type(5){
+    background: url(../img/tailwind.jpg) center center no-repeat;
+}
+#homePage>div>div.icons>div:hover{
+     animation: wobble forwards infinite linear 3000ms;
 }
