@@ -118,7 +118,9 @@ div.sidebar>div>div.social>input {
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
+background-color: #040D12;
 }
+
 div.sidebar>div>div.social>input::before {
   content: "\f1e0";
   position: absolute;
