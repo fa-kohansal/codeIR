@@ -280,7 +280,6 @@ div.content{
   height: 80%;
   position: relative;
   background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color: #000;
       margin: 0;
@@ -293,7 +292,7 @@ div.content{
 
     .swiper-slide {
       text-align: center;
-      font-size: 18px;
+      text-transform: capitalize;
       background: #fff;
       display: flex;
       justify-content: center;
