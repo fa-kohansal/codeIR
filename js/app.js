@@ -1,3 +1,5 @@
+// import Swiper from "../node_modules/swiper/swiper-bundle.min";
+
 setTimeout(function (){
     document.querySelector('.loading').style.display="none"
     $('.wrapper').addClass('d-flex')
@@ -14,11 +16,3 @@ $('#projectBtn').click(()=>{
     $('#homePage').addClass('d-none');
     $('#ourProject').removeClass('d-none')
 })
-let swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
