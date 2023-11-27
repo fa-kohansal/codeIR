@@ -11,8 +11,17 @@ setTimeout(function (){
 },3000)
 $('#home').click(()=>{
     $('#ourProject').addClass('d-none')
+    $('#aboutUs').addClass('d-none')
+
 })
 $('#projectBtn').click(()=>{
     $('#homePage').addClass('d-none');
     $('#ourProject').removeClass('d-none')
+    $('#aboutUs').addClass('d-none')
+
+})
+$("#aboutBtn").click(()=>{
+    $('#homePage').addClass('d-none');
+    $('#ourProject').addClass('d-none')
+    $('#aboutUs').removeClass('d-none')
 })
